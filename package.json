@@ -1,0 +1,37 @@
+{
+  "name": "imiv2jsonschema",
+  "version": "0.0.1",
+  "description": "Generate JSON Schema from imiv",
+  "main": "imiv2jsonschema.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": "bin/imiv2owl.js",
+  "files": [
+    "bin/imiv2owl.js"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigo-lab/imiv2jsonschema.git"
+  },
+  "keywords": [
+    "imi",
+    "imiv",
+    "javascript"
+  ],
+  "author": "indigo-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indigo-lab/imiv2jsonschema/issues"
+  },
+  "homepage": "https://github.com/indigo-lab/imiv2jsonschema#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jsonschema": "^1.2.4",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "imiv-parser": "^1.0.1"
+  }
+}
